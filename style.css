@@ -107,13 +107,13 @@
 
 /*==>Desktop view<==*/
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .heading, .para1, .para2, .para3, .para4, .logopic, .parent, .picture, .picture2, .input1, .button {
         display: none;
     }
 }
   
-@media screen and(max-width: 1024px) {
+@media screen and(max-width: 599px) {
     .picturehero, .picturehero2, .heading2, .parahero1, .parahero2, .parahero3, .parahero4, .inputhero1, .button1, .parenthero {
         display: none;
     }
