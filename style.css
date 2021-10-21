@@ -103,7 +103,7 @@
 }
   
 @media screen and(max-width: 599px) {
-    .picturehero, .picturehero2, .heading2, .parahero1, .parahero2, .parahero3, .parahero4, .inputhero1, .button1, .parenthero {
+    .picturehero, .picturehero2, .heading2, .parahero1, .parahero2, .parahero3, .parahero4, .inputhero1, .logopic2, .button1, .parenthero {
         display: none;
     }
 }
