@@ -54,11 +54,12 @@
 }
 
 .input1 {
-    padding-left: 60px;
+    padding-right: 60px;
     position: relative;
     text-align: center;
     color: hsl(0, 36%, 70%);
     font-weight: lighter;
+    width: 20%;
 }
 
 .parent {
@@ -95,7 +96,7 @@
     font-weight: lighter;
 }
 
-/*==>Desktop view<==*/
+/*==>Desktop view<==*
 
 @media screen and (min-width: 600px) {
     .heading, .para1, .para2, .para3, .para4, .logopic, .parent, .picture, .picture2, .input1, .button, ::placeholder {
