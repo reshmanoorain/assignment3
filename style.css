@@ -124,7 +124,7 @@
 
 .picturehero {
     padding: 30px;
-    padding-left: 220px;
+    padding-left: 150px;
     float: left;
     padding-top: 80px;
 
@@ -132,8 +132,8 @@
 
 .picturehero2 {
     float: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .heading2 {
@@ -144,39 +144,39 @@
 
 .parahero1 {
     color: hsl(0, 36%, 70%);
-    font-size: 80px;
+    font-size: 60px;
     text-align: left;
-    padding-left: 220px;
+    padding-left: 150px;
     font-family: "Josefin Sans";
     font-weight: lighter;
 }
 
 .parahero2 {
-    font-size: 80px;
-    padding-left: 220px;
+    font-size: 60px;
+    padding-left: 150px;
     font-family: "Josefin Sans";
     font-weight: bold;
     text-align: left;
 }
 
 .parahero3 {
-    font-size: 80px;
-    padding-left: 220px;
+    font-size: 60px;
+    padding-left: 150px;
     font-family: "Josefin Sans";
     font-weight: bold;
     text-align: left;
 }
 
 .parahero4 {
-    font-size: 20px;
-    padding-left: 220px;
+    font-size: 15px;
+    padding-left: 150px;
     font-family: "Josefin Sans";
     text-align: left;
     color:  hsl(0, 36%, 70%);
 }
 
 .inputhero1 {
-    padding-left: 220px;
+    padding-left: 150px;
     position: relative;
     text-align: center;
     color: hsl(0, 36%, 70%);
@@ -184,14 +184,15 @@
 }
 
 .parenthero {
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 25px;
-    padding-right: 370px;
+    padding-right: 200px;
     padding-bottom: 25px;
     border-radius: 40px;
     text-align: center;
     border-color: lightgrey;
     border-top-color: lightgrey;
+    width: 25%;
 }
 
 .button1 {
