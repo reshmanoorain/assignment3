@@ -1,0 +1,217 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    background-color: hsl(0, 30%, 95%);
+}
+
+/*==>Mobile view<==*/
+
+.logopic {
+    background-color: hsl(0, 30%, 95%);
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+}
+
+.heading {
+    background-color: hsl(0, 30%, 95%);
+    padding-top: 0;
+}
+
+.picture {
+    padding-top: 50px;
+    padding-right: 220px;
+    float: inline-end;
+    width: 20%;
+}
+
+.picture2 {
+    width: 28%;
+    height: 45vh;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.para1 {
+    color: hsl(0, 36%, 70%);
+    font-size: 45px;
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+    padding-right: 40px;
+}
+
+.para2 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Josefin Sans";
+    padding-right: 50px;
+}
+
+.para3 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Josefin Sans";
+    padding-right: 40px;
+}
+
+.para4 {
+    color: hsl(0, 36%, 70%);
+    text-align: center;
+    font-family: "Josefin Sans";
+    padding-right: 50px;
+}
+
+.input1 {
+    padding-right: 60px;
+    position: relative;
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+}
+
+.parent {
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-right: 170px;
+    padding-bottom: 15px;
+    border-radius: 30px;
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+    border-color: hsl(0, 36%, 70%);
+    width: 22%;
+    height: 7vh;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+
+    border-radius: 90px;
+    padding: 12px 53px;
+    background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
+    font-size: 30px;
+    color: white;
+    border: hsl(0, 74%, 74%);
+    text-align: center;
+    display: inline;
+    padding-right: 40px;
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+}
+
+/*==>Desktop view<==*/
+
+@media screen and (min-width: 600px) {
+    .heading, .para1, .para2, .para3, .para4, .logopic, .parent, .picture, .picture2, .button {
+        display: none;
+    }
+}
+  
+@media screen and(max-width: 1024px) {
+    .picturehero, .picturehero2, .heading2, .parahero1, .parahero2, .parahero3, .parahero4, .inputhero1, .button1, .parenthero {
+        display: none;
+    }
+}
+
+.picturehero {
+    padding: 30px;
+    padding-left: 220px;
+    float: left;
+    padding-top: 80px;
+
+}
+
+.picturehero2 {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.heading2 {
+    padding-top: 200px;
+    text-align: left;
+
+}
+
+.parahero1 {
+    color: hsl(0, 36%, 70%);
+    font-size: 80px;
+    text-align: left;
+    padding-left: 220px;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+}
+
+.parahero2 {
+    font-size: 80px;
+    padding-left: 220px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    text-align: left;
+}
+
+.parahero3 {
+    font-size: 80px;
+    padding-left: 220px;
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    text-align: left;
+}
+
+.parahero4 {
+    font-size: 20px;
+    padding-left: 220px;
+    font-family: "Josefin Sans";
+    text-align: left;
+    color:  hsl(0, 36%, 70%);
+}
+
+.inputhero1 {
+    padding-left: 220px;
+    position: relative;
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+    font-weight: lighter;
+}
+
+.parenthero {
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-right: 370px;
+    padding-bottom: 25px;
+    border-radius: 40px;
+    text-align: center;
+    border-color: lightgrey;
+    border-top-color: lightgrey;
+}
+
+.button1 {
+    position: absolute;
+    right: 0;
+
+    border-radius: 40px;
+    padding: 20px 53px;
+    background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
+    font-size: 30px;
+    color: white;
+    border: hsl(0, 74%, 74%);
+    text-align: center; 
+    display: inline;
+    font-family: "Josefin Sans";
+}
+
+::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-size: 20px;
+    font-family: "Josefin Sans";
+    font-weight: lighter;
+}
