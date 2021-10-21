@@ -9,26 +9,24 @@
 /*==>Mobile view<==*/
 
 .logopic {
-    background-color: hsl(0, 30%, 95%);
     width: 100%;
     height: 60vh;
     text-align: center;
 }
 
 .heading {
-    background-color: hsl(0, 30%, 95%);
     padding-top: 0;
 }
 
 .picture {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-right: 220px;
     float: inline-end;
     width: 20%;
 }
 
 .picture2 {
-    width: 28%;
+    width: 40%;
     height: 45vh;
     padding-top: 35px;
     padding-bottom: 20px;
@@ -97,7 +95,6 @@
     color: white;
     border: hsl(0, 74%, 74%);
     text-align: center;
-    display: inline;
     padding-right: 40px;
 }
 
@@ -110,7 +107,7 @@
 
 /*==>Desktop view<==*/
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
     .heading, .para1, .para2, .para3, .para4, .logopic, .parent, .picture, .picture2, .button {
         display: none;
     }
@@ -132,8 +129,6 @@
 
 .picturehero2 {
     float: right;
-    padding-top: 5px;
-    padding-bottom: 5px;
 }
 
 .heading2 {
