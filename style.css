@@ -65,14 +65,14 @@ body {
 
 .input1 {
     position: absolute;
-    top: 662px;
+    top: 707px;
     color: hsl(0, 36%, 70%);
     font-weight: lighter;
     width: 288px;
     height: 55px;
     border-radius: 30px;
     border: lightgrey;
-    margin-left: -169px;
+    margin-left: -157px;
     border: 1px solid;
     font-family: "Josefin Sans";
     font-size: 10px;
@@ -89,7 +89,7 @@ body {
     background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
     border-radius: 30px;
     position: absolute;
-    top: 662px;
+    top: 707px;
     left: 238px;
     font-size: 16px;
     color: white;
