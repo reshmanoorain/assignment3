@@ -65,7 +65,7 @@ body {
 
 .input1 {
     position: absolute;
-    top: 707px;
+    top: 703px;
     color: hsl(0, 36%, 70%);
     font-weight: lighter;
     width: 288px;
@@ -89,7 +89,7 @@ body {
     background: linear-gradient(to right, hsl(0, 55%, 83%) ,hsl(0, 74%, 74%));
     border-radius: 30px;
     position: absolute;
-    top: 707px;
+    top: 703px;
     left: 238px;
     font-size: 16px;
     color: white;
